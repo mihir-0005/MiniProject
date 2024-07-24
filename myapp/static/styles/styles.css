@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0E1116;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.download-button {
+    background-color: #d92763;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+    background-color: #792359;
+    transform: scale(1.05);
+}
